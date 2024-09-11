@@ -1,6 +1,6 @@
 "use server";
 
-import { db } from "@/lib/db";
+import db from "@/lib/db";
 import { auth } from "@clerk/nextjs/server";
 
 export const getIncomeExpense = async (): Promise<{
